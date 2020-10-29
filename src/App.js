@@ -36,7 +36,7 @@ class App extends React.Component {
 		return (
 			<div className='App'>
 				<h1>Monster School</h1>
-				<SearchBox handleChange={this.handleChange} placeholder='search monsters' />
+				<SearchBox handleChange={this.handleChange} placeholder='Search Monsters...' />
 				<CardList monsters={filteredMonsters} />
 			</div>
 		);
